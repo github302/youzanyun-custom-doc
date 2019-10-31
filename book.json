@@ -1,0 +1,14 @@
+{
+  "title": "有赞云开发者工具",
+  "author": "有赞云前端",
+  "description": "有赞云开发者工具介绍，及插件开发",
+  "links": {
+    "gitbook": false,
+    "sharing": {
+      "google": false,
+      "facebook": false,
+      "twitter": false,
+      "all": false
+    }
+  }
+}
