@@ -1,0 +1,701 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>下单页sdk · 有赞云开发者工具</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="有赞云前端">
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="goods-detail.html" />
+    
+    
+    <link rel="prev" href="app.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    开发者工具简介
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="../../../introduction/getting-started.html">
+            
+                <a href="../../../introduction/getting-started.html">
+            
+                    
+                    启动页
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    小程序定制
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    组件定制
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="../started.html">
+            
+                <a href="../started.html">
+            
+                    
+                    组件定制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="../component-sdk.html">
+            
+                <a href="../component-sdk.html">
+            
+                    
+                    sdk介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="app.html">
+            
+                <a href="app.html">
+            
+                    
+                    全局sdk
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.1.4" data-path="buy.html">
+            
+                <a href="buy.html">
+            
+                    
+                    下单页sdk
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.5" data-path="goods-detail.html">
+            
+                <a href="goods-detail.html">
+            
+                    
+                    商品详情页sdk
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../page-replace.html">
+            
+                <a href="../../page-replace.html">
+            
+                    
+                    整页定制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../page-add.html">
+            
+                <a href="../../page-add.html">
+            
+                    
+                    自定义页面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../page-preload.html">
+            
+                <a href="../../page-preload.html">
+            
+                    
+                    预加载配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../../slimming.html">
+            
+                <a href="../../slimming.html">
+            
+                    
+                    小程序瘦身
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../../h5-custom/">
+            
+                <a href="../../../h5-custom/">
+            
+                    
+                    H5定制
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../../h5-custom/component-replace.html">
+            
+                <a href="../../../h5-custom/component-replace.html">
+            
+                    
+                    组件定制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../../h5-custom/page-replace.html">
+            
+                <a href="../../../h5-custom/page-replace.html">
+            
+                    
+                    整页定制
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../../pc-custom/">
+            
+                <a href="../../../pc-custom/">
+            
+                    
+                    PC定制
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../../pc-custom/showcase-editor.html">
+            
+                <a href="../../../pc-custom/showcase-editor.html">
+            
+                    
+                    微页面编辑器定制
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../../design-platform/">
+            
+                <a href="../../../design-platform/">
+            
+                    
+                    设计平台
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../../design-platform/component.html">
+            
+                <a href="../../../design-platform/component.html">
+            
+                    
+                    h5端组件开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../../design-platform/editor.html">
+            
+                <a href="../../../design-platform/editor.html">
+            
+                    
+                    编辑器开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >下单页sdk</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="&#x4E0B;&#x5355;&#x9875;sdk">&#x4E0B;&#x5355;&#x9875;sdk</h2>
+<h3 id="&#x9875;&#x9762;&#x6570;&#x636E;yunsdkpagekey">&#x9875;&#x9762;&#x6570;&#x636E;(yunSdk.page[key])</h3>
+<pre><code class="lang-javascript"><span class="hljs-comment">// &#x5F53;&#x524D;&#x914D;&#x9001;&#x4FE1;&#x606F;</span>
+delivery: {
+  expressType: <span class="hljs-string">&apos;express&apos;</span>, <span class="hljs-comment">// &#x914D;&#x9001;&#x65B9;&#x5F0F;</span>
+  address: {
+    addressDetail: <span class="hljs-string">&apos;&#x7FE0;&#x82D1;&#x8857;&#x9053;&#x9EC4;&#x9F99;&#x4E07;&#x79D1;&#x4E2D;&#x5FC3;&apos;</span>, <span class="hljs-comment">// &#x5730;&#x5740;&#x8BE6;&#x7EC6;</span>
+    areaCode: <span class="hljs-string">&apos;&apos;</span>, <span class="hljs-comment">// &#x533A;&#x53F7;</span>
+    country: <span class="hljs-string">&apos;&#x4E2D;&#x56FD;&apos;</span>, <span class="hljs-comment">// &#x56FD;&#x5BB6;</span>
+    province: <span class="hljs-string">&apos;&#x6D59;&#x6C5F;&#x7701;&apos;</span>, <span class="hljs-comment">// &#x7701;&#x4EFD;</span>
+    city: <span class="hljs-string">&apos;&#x676D;&#x5DDE;&#x5E02;&apos;</span>,  <span class="hljs-comment">// &#x5E02;</span>
+    county: <span class="hljs-string">&apos;&#x897F;&#x6E56;&#x533A;&apos;</span>,  <span class="hljs-comment">// &#x53BF;/&#x533A;</span>
+    lat: <span class="hljs-string">&apos;&apos;</span>,  <span class="hljs-comment">// &#x7EF4;&#x5EA6;</span>
+    lon: <span class="hljs-string">&apos;&apos;</span>,  <span class="hljs-comment">// &#x7ECF;&#x5EA6;</span>
+    recipients: <span class="hljs-string">&apos;&#x5F20;&#x67D0;&#x67D0;&apos;</span>, <span class="hljs-comment">// &#x6536;&#x8D27;&#x4EBA;</span>
+    tel: <span class="hljs-string">&apos;156xxxxxxxx&apos;</span> <span class="hljs-comment">// &#x6536;&#x8D27;&#x4EBA;&#x624B;&#x673A;&#x53F7;</span>
+  },
+  selfFetch: {
+    <span class="hljs-comment">// &#x81EA;&#x63D0;&#x70B9;</span>
+    shop: {
+      addressDetail: <span class="hljs-string">&apos;&apos;</span>,  <span class="hljs-comment">// &#x5730;&#x5740;&#x8BE6;&#x7EC6;</span>
+      area: <span class="hljs-string">&apos;&apos;</span>,
+      province: <span class="hljs-string">&apos;&apos;</span>,  <span class="hljs-comment">// &#x7701;&#x4EFD;</span>
+      city: <span class="hljs-string">&apos;&apos;</span>,  <span class="hljs-comment">// &#x5E02;</span>
+      county: <span class="hljs-string">&apos;&apos;</span>,  <span class="hljs-comment">// &#x53BF;/&#x533A;</span>
+      lat: <span class="hljs-string">&apos;&apos;</span>,  <span class="hljs-comment">// &#x7EF4;&#x5EA6;</span>
+      lng: <span class="hljs-string">&apos;&apos;</span>,  <span class="hljs-comment">// &#x7ECF;&#x5EA6;</span>
+      name: <span class="hljs-string">&apos;&#x81EA;&#x63D0;&#x70B9;&#x540D;&#x79F0;&apos;</span>,  <span class="hljs-comment">// &#x81EA;&#x63D0;&#x70B9;&#x540D;&#x79F0;</span>
+      tel: <span class="hljs-string">&apos;&#x81EA;&#x63D0;&#x70B9;&#x8054;&#x7CFB;&#x7535;&#x8BDD;&apos;</span>,  <span class="hljs-comment">// &#x81EA;&#x63D0;&#x70B9;&#x8054;&#x7CFB;&#x7535;&#x8BDD;</span>
+    },
+    contact:  {
+      tel: <span class="hljs-string">&apos;&apos;</span>, <span class="hljs-comment">// &#x63D0;&#x8D27;&#x4EBA;&#x8054;&#x7CFB;&#x7535;&#x8BDD;</span>
+      recipients: <span class="hljs-string">&apos;&apos;</span>, <span class="hljs-comment">//&#x63D0;&#x8D27;&#x4EBA;&#x59D3;&#x540D;</span>
+    },
+    time: <span class="hljs-string">&apos;&apos;</span>, <span class="hljs-comment">// &#x81EA;&#x63D0;&#x65F6;&#x95F4;</span>
+  }
+},
+<span class="hljs-comment">// &#x8BA2;&#x5355;&#x652F;&#x4ED8;&#x6570;&#x636E;</span>
+payment: {
+  realPay: <span class="hljs-number">9900</span>, <span class="hljs-comment">// &#x5B9E;&#x4ED8;&#x91D1;&#x989D;&#xFF0C;&#x5355;&#x4F4D;&#xFF1A;&#x5206;</span>
+  postage: <span class="hljs-number">600</span>, <span class="hljs-comment">// &#x90AE;&#x8D39;&#xFF0C;&#x5355;&#x4F4D;&#xFF1A;&#x5206;</span>
+},
+goodsList: [{
+  title: <span class="hljs-string">&apos;&#x5546;&#x54C1;&#x540D;&#x79F0;&apos;</span>,
+  imgUrl: <span class="hljs-string">&apos;https://img.yzcdn.cn/upload_files/2019/03/23/dd2c6bdab2c8e6b41a595dfcacf34511.jpg&apos;</span>,
+  alias: <span class="hljs-string">&apos;&apos;</span>, <span class="hljs-comment">// &#x5546;&#x54C1;alias</span>
+  num: <span class="hljs-number">2</span>, <span class="hljs-comment">// &#x6570;&#x91CF;</span>
+  payPrice: <span class="hljs-number">100</span>, <span class="hljs-comment">// &#x5546;&#x54C1;&#x4EF7;&#x683C;</span>
+  goodsId: <span class="hljs-number">111</span>,
+  skuId: <span class="hljs-number">121</span>
+}]
+</code></pre>
+<h3 id="&#x4E8B;&#x4EF6;yunsdkpageeventskey">&#x4E8B;&#x4EF6;(yunSdk.page.events[key])</h3>
+<table width="1000px">
+<thead>
+  <th>&#x4E8B;&#x4EF6;&#x540D;</th>
+  <th>&#x5165;&#x53C2;</th>
+  <th>&#x4E8B;&#x4EF6;&#x7C7B;&#x578B;</th>
+  <th>&#x4E8B;&#x4EF6;&#x8BF4;&#x660E;</th>
+</thead>
+<tbody>
+  <tr>
+    <td>beforeCreateOrderAsync</td>
+    <td>
+<pre>
+{
+  delivery: object,
+  payment: object,
+  goodsList: Array
+}
+</pre>
+    </td>
+    <td>&#x5F02;&#x6B65;&#x4E8B;&#x4EF6;</td>
+    <td>&#x63D0;&#x4EA4;&#x8BA2;&#x5355;&#x4E4B;&#x524D;&#x4E8B;&#x4EF6;&#x89E6;&#x53D1;&#x3002;(reject&#x4F1A;&#x963B;&#x6B62;&#x521B;&#x5EFA;&#x8BA2;&#x5355;)</td>
+  </tr>
+  <tr>
+    <td>afterCreateOrder</td>
+    <td>
+    <pre>
+{
+  orderNo: string,// &#x8BA2;&#x5355;&#x53F7;
+}
+    </pre>
+    </td>
+    <td>&#x540C;&#x6B65;&#x4E8B;&#x4EF6;</td>
+    <td>&#x751F;&#x6210;&#x8BA2;&#x5355;&#x4E4B;&#x540E;&#x89E6;&#x53D1;&#x3002;</td>
+  </tr>
+  <tr>
+    <td>onPayItemClickAsync</td>
+    <td>
+    <pre>
+{
+  payChannel: string,// &#x652F;&#x4ED8;&#x6E20;&#x9053;
+}
+    </pre>
+    </td>
+    <td>&#x5F02;&#x6B65;&#x4E8B;&#x4EF6;</td>
+    <td>&#x5F53;&#x9009;&#x62E9;&#x67D0;&#x79CD;&#x652F;&#x4ED8;&#x65B9;&#x5F0F;&#x70B9;&#x51FB;&#x65F6;&#x89E6;&#x53D1;&#x3002;(reject&#x4F1A;&#x963B;&#x6B62;&#x652F;&#x4ED8;)</td>
+  </tr>
+</tbody>
+</table>
+
+<h3 id="&#x6D41;&#x7A0B;yunsdkpagegetprocess">&#x6D41;&#x7A0B;(yunSdk.page.getProcess())</h3>
+<table>
+<thead>
+  <th>&#x6D41;&#x7A0B;&#x540D;</th>
+  <th>&#x5165;&#x53C2;</th>
+  <th>&#x6D41;&#x7A0B;&#x8BF4;&#x660E;</th>
+  <th>&#x8FD4;&#x56DE;&#x4FE1;&#x606F;</th>
+</thead>
+<tbody>
+  <tr>
+    <td>createOrder</td>
+    <td>-</td>
+    <td>&#x521B;&#x5EFA;&#x8BA2;&#x5355;</td>
+    <td>Promise({
+      orderNo&#xFF1A;&apos;&apos;
+    }); </td>
+  </tr>
+   <tr>
+    <td>getPayWays</td>
+    <td>-</td>
+    <td>
+<ul>
+  <li>&#x83B7;&#x53D6;&#x652F;&#x4ED8;&#x65B9;&#x5F0F;  </li>
+  <li>&#x652F;&#x4ED8;&#x65B9;&#x5F0F;&#x6709;(&#x5177;&#x4F53;&#x6570;&#x636E;&#x4EE5;&#x5B9E;&#x9645;&#x83B7;&#x53D6;&#x4E3A;&#x51C6;)&#xFF1A;  </li>
+  <li>
+<pre>
+[{  
+  pay_channel: &quot;ALIPAY_WAP&quot;,  
+  pay_channel_name: &quot;&#x652F;&#x4ED8;&#x5B9D;&#x652F;&#x4ED8;&quot;  
+}, {  
+  pay_channel: &quot;BANK_CARD&quot;,
+  pay_channel_name: &quot;&#x94F6;&#x884C;&#x5361;&#x652F;&#x4ED8;&quot;
+}, {
+  pay_channel: &quot;CASH_ON_DELIVERY&quot;,
+  pay_channel_name: &quot;&#x8D27;&#x5230;&#x4ED8;&#x6B3E;&quot;
+}, {
+  pay_channel: &quot;WX_JS&quot;,
+  pay_channel_name: &quot;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&quot;
+}]
+</pre>
+  </li>
+  <li>&#x6CE8;&#xFF1A;&#x751F;&#x6210;&#x8BA2;&#x5355;&#x53F7;&#x4E4B;&#x540E;&#x624D;&#x80FD;&#x901A;&#x8FC7;&#x4EE5;&#x4E0B;&#x65B9;&#x6CD5;&#x83B7;&#x53D6;&#x5230;&#x652F;&#x4ED8;&#x65B9;&#x5F0F;</li>
+<ul>
+    </ul></ul></td>
+    <td>Promise([{  
+      payChannel: &apos;WX_APPLET&apos;,  
+      payChannelName: &apos;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&apos;  
+    }]); </td>
+  </tr>
+   <tr>
+    <td>startPay</td>
+    <td>-</td>
+    <td>&#x5F00;&#x59CB;&#x652F;&#x4ED8;</td>
+    <td>Promise();</td>
+  </tr>
+</tbody>
+</table>
+
+<p>&#x4F8B;&#xFF1A;</p>
+<p>&#x521B;&#x5EFA;&#x8BA2;&#x5355;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> createOrder = getProcess(<span class="hljs-string">&apos;createOrder&apos;</span>);
+
+createOrder().then(res =&gt; {
+  <span class="hljs-comment">// &#x8BA2;&#x5355;&#x521B;&#x5EFA;&#x6210;&#x529F;&#x540E;&#x66B4;&#x9732;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x76EE;&#x524D;&#x91CC;&#x9762;&#x53EA;&#x6709; orderNo</span>
+  <span class="hljs-built_in">console</span>.log(res.data);
+  <span class="hljs-comment">// &#x53EF;&#x7528;&#x7684;&#x652F;&#x4ED8;&#x65B9;&#x5F0F;&#x5217;&#x8868;</span>
+  <span class="hljs-comment">// &#x63A5;&#x5165;&#x652F;&#x4ED8;&#x6269;&#x5C55;&#x70B9; &#x6216; &#x7528;&#x6237;&#x65E0;&#x9700;&#x652F;&#x4ED8;&#x65F6;&#xFF0C;&#x8FD4;&#x56DE;&#x7A7A;&#x6570;&#x7EC4;</span>
+  <span class="hljs-built_in">console</span>.log(res.payWays);
+});
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="app.html" class="navigation navigation-prev " aria-label="Previous page: 全局sdk">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="goods-detail.html" class="navigation navigation-next " aria-label="Next page: 商品详情页sdk">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"下单页sdk","level":"1.2.1.4","depth":3,"next":{"title":"商品详情页sdk","level":"1.2.1.5","depth":3,"path":"mp-custom/component-replace/sdk/goods-detail.md","ref":"mp-custom/component-replace/sdk/goods-detail.md","articles":[]},"previous":{"title":"全局sdk","level":"1.2.1.3","depth":3,"path":"mp-custom/component-replace/sdk/app.md","ref":"mp-custom/component-replace/sdk/app.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"有赞云前端","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"有赞云开发者工具","links":{"gitbook":false,"sharing":{"google":false,"facebook":false,"twitter":false,"all":false}},"gitbook":"*","description":"有赞云开发者工具介绍，及插件开发"},"file":{"path":"mp-custom/component-replace/sdk/buy.md","mtime":"2019-11-06T16:44:02.163Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-06T16:45:45.892Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -5,6 +5,7 @@
   "author": "''",
   "private": true,
   "scripts": {
-    "dev": "gitbook serve --port 4002"
+    "dev": "gitbook serve --port 4002",
+    "build": "gitbook build . ../app/server/assets/doc-wsc-custom"
   }
 }

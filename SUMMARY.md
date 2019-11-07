@@ -17,3 +17,6 @@
   * [整页定制](h5-custom/page-replace.md)
 * [PC定制](pc-custom/index.md)
   * [微页面编辑器定制](pc-custom/showcase-editor.md)
+* [设计平台](design-platform/index.md)
+  * [h5端组件开发](design-platform/component.md)
+  * [编辑器开发](design-platform/editor.md)
