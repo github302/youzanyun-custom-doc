@@ -11,7 +11,7 @@ b. pc编辑器开发 （用于商家在微商城后台配置数据）
 - 开发步骤：
 
 1. 双击项目进入模版开发页面，系统会自动初始化开发目录，如下
-
+![图片](../pic/design-platform/structure.png)
 2. 命令行 分别进入 `showcase-components` 和 `showcase-editor` 目录执行一下命令
 ```bash
 npm install
